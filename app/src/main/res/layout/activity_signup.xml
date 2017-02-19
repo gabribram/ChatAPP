@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gabri.gpschat.activity.SignupActivity"
+    android:background="#ffff5252">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_above="@+id/last_editText"
+        android:id="@+id/first_editText"
+        android:layout_alignRight="@+id/last_editText"
+        android:layout_alignEnd="@+id/last_editText"
+        android:layout_alignLeft="@+id/last_editText"
+        android:layout_alignStart="@+id/last_editText"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="First Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_above="@+id/signup_emaileditText"
+        android:id="@+id/last_editText"
+        android:layout_alignRight="@+id/signup_emaileditText"
+        android:layout_alignEnd="@+id/signup_emaileditText"
+        android:layout_alignLeft="@+id/signup_emaileditText"
+        android:layout_alignStart="@+id/signup_emaileditText"
+        android:singleLine="true"
+        android:typeface="serif"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Last Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_emaileditText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:typeface="serif"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/signup_passworkeditText"
+        android:layout_below="@+id/signup_emaileditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:typeface="serif"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="signup"
+        android:id="@+id/signup_button"
+        android:layout_below="@+id/signup_passworkeditText"
+        android:layout_marginTop="30dp"
+        android:background="#ffff8a80"
+        android:layout_alignRight="@+id/signup_passworkeditText"
+        android:layout_alignEnd="@+id/signup_passworkeditText"
+        android:layout_alignLeft="@+id/signup_passworkeditText"
+        android:layout_alignStart="@+id/signup_passworkeditText"
+        android:typeface="serif"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already i have account"
+        android:id="@+id/alreadysignup_textView"
+        android:layout_below="@+id/signup_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FFFFFF"
+        android:typeface="serif" />
+
+    <TextView
+        android:text="WINDOW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/first_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:id="@+id/textView"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+</RelativeLayout>

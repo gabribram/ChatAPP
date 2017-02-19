@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_3dcfc60b3aa17f9c7af6f605adbf5e6ddcb07600/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_619008863591166c1f01b42022ff3f056c3889f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_49231c6d7b12cbf595da5aa97b6a8a14adb7c230/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_8831b5dce2878c46c632c2ee2898a28b3d539770/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_26164154d4cdb669df1907c00feca0805d9d89eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_6a5cdf5c929fdcb3172908227b009dc6e8a22787/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_a4ea280ab2621dd6de0557bd5e453fe9a005af1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view-picasso/0.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a62dd320116a3b33f66cf17396147c1fbc2e194e">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/agency.tango.android-avatar-view-picasso-0.0.2_514e1ced2cb434015be09d5bb0ca020a35b8dfb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view/0.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9744383e864cd272d30b54848a1c1b5f840d23f2">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/agency.tango.android-avatar-view-0.0.2_6652cab5971036d8e8f59e49feed81115f728ce1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_22ea5a6e421a459cb35adeced5ccc76c37e75ac1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_4cfb6518312fc1b16c1074b4edfcbddf04ee3d11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_df35694cfa31764e758841920952ea81e5508336/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_e0a727f2670aaf2e65e8dae406c9f01b8b74a8c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.0.1_433d27981414315b0489867fb1f39925b22d62c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_ac642c4bdeaffb787bc6305910d1fcf1c2d7b9fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/1.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d27ce231f26fe405edc99031ff634c6c67431bc8">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.aurelhubert-ahbottomnavigation-1.4.0_2fe8f7b2f3a53025627579a792a68e6cbcf9ce37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.6/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bc8b9eff35f11b60b4b361dc9cc967432789f16">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.leolin-ShortcutBadger-1.1.6_d28bb6e18947dcda6c87c3bc530bb9cc136f6a4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.jakewharton.timber/timber/4.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a11388058c8c82cbdb5e8646f1c37adfc7755d6">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton.timber-timber-4.3.0_46ba53b00138d30063fff86597f36c972c7d6eb2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.0.1_56592296087f8680bd1244abae82e7921472f860/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_4d193ae804f54cb3e6f6aa1d36f7b0e153bf3bfa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_fef15816889f43015539dd4adb9b59e4c9d183e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e894d1347573091cc4440a3d41859021a5d61501">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d94dd805c95392483447b593cb2209e50998b531/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_ee294421410e6fbf86fddc9e207ea7e93f5e173e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="960082c60f83433dc4c6c741df22ca8f19f3e294">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_abdabc1738995d3a67c3aed83cd4e8a617b52893/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.wang.avi/library/2.1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e699699fae0092703de1d02b217f43803d0f7e0a">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.wang.avi-library-2.1.3_ee022b7e55aa133216663b7fa4badaf5327364a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_568f9ac41e08136c32bdbf31741e5d9311e912ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_ef989de0eb4673b9fdb8d6287e9b8e61f5c8a31b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_e2f7333789226ff43247757bd3b4490080b4c496/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_bbd4ec064c17545f19b9ad4cfc207a3a7b574827/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_bd6f08d74227bae1e7c82061770e84835bdd75af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_18941c34db82abfa8de744269681fc9c339cfc6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabri/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_28f4e469320cf15647be6556f5514336218bf611/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_2e9557abf0dde3744b83cf398f830ebb4985c7cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.0.1_86805a42ac66d2669206906ca56327ae3196d0fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_6af009acb104a39139db76f8b40cdfd28ea26bad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_ec02db545cbc56aa302c99b753c84314ff7c5cac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_9101001afcb0e92f3864243ad82cd56798f78ccd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view-bindings/0.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e66c6bf82c2f32e11422f3062421b5b5aba889f1">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/agency.tango.android-avatar-view-bindings-0.0.2_81cac16dfbaeed01224b628de478fb0275926d84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_74f40b9e78775c13137bad1382b0a6f1002ce554/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_eb94a54a3d41f1ccc40248a6e1f582c1e15150f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_a833c15157746c6b767bc23a433fc1a1f2e7457f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_b83347b633c5710adea0ed25b4079b6b63098a7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_583b13712f77fa57a935ab61579a867451cfa60b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_cc77f3735d1b142a05a232ece1ba1ccc7ea0dcdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_c961f6a9669b063a229cec8670109bf07d736499/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabri/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_15a0fd480e7af0ce88c478dea5dd199654bf65b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_8176f2249081597b3eb90f746a013e97d1825c28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_8d83c0176d7fb685062742c9e54364c377acf98a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_e2b58f40f40e86ecd37f284ca09ddef6080f3bf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-library-1.2.1_6535364bef0a9833d7a3fc48f3c6ca1aa72ad893/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_af074b0adc72fe45aee51cadeea0cfae7f7aa729/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_e52bb2a05c1ce63b5e8e48e46b28742d26795d93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.2.2/baseLibrary-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e3519b9d5287840df40776a8268ae336ca9f063">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.2_7ed53c723ae13fdba19a1b45153e478d184e8ae5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_e2f7237b24d50158747955aa11a3f6a48cc73d1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_bd725d7fb2a5566c77b1c69f8ad2b8127303c036/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.0.1_779759b50f1f821513da68fcd29e6b82af954100/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_3a8a3d216cb727c3b8e99fb990db337102ca3dbc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_1a8cd4742b53a4e87adad966b80aa78fc01fab51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_3f72e009149745034a6ead4e10d704dffbd3a2d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_ae7894d3cf7521cd26ac8280cedc6f254fce35e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_c8c1311fac5f6480a688c0f70ce2895fa56522ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_6db824725a87cc2de1d7203b579e9efbe4026b58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_8f9a0b9406a9a180d79080586007f0d8cf1b9321/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/DEVELOPMENT_LIBS/android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_14368cfe73f3fafa83bf3b73c6824b3401d0c4e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_14ebdf8c3a5b8b6548edd2004b38d663512a53f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_615ab9290e87f9a68f5d2cb11fff0e49b22b75dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_c69e5f1a99b9048473084c70143d44286f9712f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_e38f3945bab9ebd8ecd000c1b74dbb0bfd5a126b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view-glide/0.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="96b419ecd8b8d21681e6706420a2c333d8fc0cd7">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/agency.tango.android-avatar-view-glide-0.0.2_93b9838c9b80456c71e9c2a7570ddf31b9f72c4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_c3788700c2fab389a84ad377c5604b0856c35ff7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_65265abc2374c46fa3c0dc94c8762929fab5714f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_7473d7a4c7b48efc5577fadd97ef752499f7a00d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_dedc38340fe21991701372e513d10d6384d65c4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_edb5a6d306fd51a6badfe22e06e926db11af6416/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_53c5b4d11224897f3c8ba8c5738949a40b4bc9b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_2de33555358e3326001f2ae86a808a7900d1b0b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_800b3c2633b02f29cc32e51c2516b2277b36f18c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_6c74345b54b1ff92c9ac132c6c392703b12ecfac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Volumes/WORK/ANDROID/Gpschat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_3f2c4f29d4e102e2290454de5e51d387b81d50be/classes.dex" />
+    </item>
+
+</items>

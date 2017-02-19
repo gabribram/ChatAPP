@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.gabri.gpschat.fragment.SettingFragment"
+    android:background="#ffff5252">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="signout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="29dp"
+            android:id="@+id/signout_button"
+            android:background="#ffff8a80"
+            android:typeface="serif"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="126dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+
+            <agency.tango.android.avatarview.views.AvatarView
+                android:id="@+id/avatar_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:av_border_color="@android:color/white"
+                app:av_border_width="1dp"
+                app:av_text_size_percentage="70"
+               />
+        </RelativeLayout>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="First Name"
+            android:ems="10"
+            android:layout_above="@+id/lastname_editText"
+            android:layout_alignRight="@+id/lastname_editText"
+            android:layout_alignEnd="@+id/lastname_editText"
+            android:layout_marginBottom="23dp"
+            android:id="@+id/firstname_editText"
+            android:typeface="serif"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Last Name"
+            android:ems="10"
+            android:layout_above="@+id/signout_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35dp"
+            android:id="@+id/lastname_editText"
+            android:typeface="serif"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</FrameLayout>
