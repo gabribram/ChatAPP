@@ -5,12 +5,14 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.gabri.gpschat.fragment.AvailableFragment;
 import com.gabri.gpschat.utility.GPSTracker;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -34,6 +36,7 @@ public class NearByFragment extends Fragment //implements LocationListener
     GoogleMap googleMap;
     LatLng currentLocation;
     GPSTracker tracker;
+    FloatingActionButton gocontact_actionbutton;
     public NearByFragment() {
         // Required empty public constructor
     }
@@ -44,7 +47,13 @@ public class NearByFragment extends Fragment //implements LocationListener
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         nearby_view=inflater.inflate(R.layout.fragment_near_by, container, false);
-
+        gocontact_actionbutton=(FloatingActionButton)nearby_view.findViewById(R.id.availe_floatingActionButton);
+        gocontact_actionbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentContainer, new AvailableFragment()).commit();
+            }
+        });
 
         mapview = (MapView) nearby_view.findViewById(R.id.mapView);
         mapview.onCreate(savedInstanceState);

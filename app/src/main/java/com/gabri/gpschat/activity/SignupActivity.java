@@ -1,7 +1,9 @@
 package com.gabri.gpschat.activity;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,12 +34,16 @@ public class SignupActivity extends AppCompatActivity {
     String emailstring,passwordstaring,firstnamestring,lastnamestring;
     FirebaseAuth mAuth;
     DatabaseReference userDatabase;
+    SharedPreferences cookies_string;
+    SharedPreferences.Editor editor;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
         userDatabase = FirebaseDatabase.getInstance().getReference(Constants.USER_TABLE);
         getSupportActionBar().hide();
+        cookies_string = getSharedPreferences(Constants.KEY_COOKIES, Context.MODE_PRIVATE);
+        editor = cookies_string.edit();
         email_edittext=(EditText)findViewById(R.id.signup_emaileditText);
         password_edittext=(EditText)findViewById(R.id.signup_passworkeditText);
         firstname_edittext=(EditText)findViewById(R.id.first_editText);
@@ -90,8 +96,12 @@ public class SignupActivity extends AppCompatActivity {
                             String date = Calendar.getInstance().getTime().getTime() + "";
                             userModel.setCreateAt(date);
                             userModel.setUpdateAt(date);
+                            userModel.setNet_status("1");
                             userDatabase.child(uid).setValue(userModel.getHashMap());
-                            Constants.currentUserModel=userModel;
+                            editor.putString(Constants.KEY_FIRSTNAME,firstnamestring);
+                            editor.putString(Constants.KEY_LASTNAME,lastnamestring);
+                            editor.putString(Constants.KEY_USERMAIL,emailstring);
+                            editor.commit();
                             startActivity(new Intent(SignupActivity.this, MainActivity.class));
                             finish();
                         }

@@ -7,7 +7,11 @@ import android.os.Bundle;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
+import com.gabri.gpschat.fragment.AvailableFragment;
+import com.gabri.gpschat.fragment.ContacteFragment;
 import com.gabri.gpschat.fragment.SettingFragment;
+import com.gabri.gpschat.utility.Constants;
+import com.gabri.gpschat.utility.Utils;
 import com.google.firebase.FirebaseApp;
 
 import me.leolin.shortcutbadger.ShortcutBadger;
@@ -31,16 +35,14 @@ public class MainActivity extends AppCompatActivity {
 // Create items
         AHBottomNavigationItem item1 = new AHBottomNavigationItem(R.string.nav_score, R.drawable.ic_nearyby, R.color.color_tab_4);
         AHBottomNavigationItem item2 = new AHBottomNavigationItem(R.string.nav_assets, R.drawable.alert, R.color.color_tab_2);
-        AHBottomNavigationItem item3 = new AHBottomNavigationItem(R.string.nav_alert, R.drawable.ic_alert, R.color.color_tab_3);
-        AHBottomNavigationItem item4 = new AHBottomNavigationItem(R.string.nav_control, R.drawable.control, R.color.color_tab_5);
-        AHBottomNavigationItem item5 = new AHBottomNavigationItem(R.string.nav_settings, R.drawable.setting, R.color.color_tab_1);
+        AHBottomNavigationItem item3 = new AHBottomNavigationItem(R.string.nav_control, R.drawable.control, R.color.color_tab_5);
+        AHBottomNavigationItem item4 = new AHBottomNavigationItem(R.string.nav_settings, R.drawable.setting, R.color.color_tab_1);
 
 // Add items
         bottomNavigation.addItem(item1);
         bottomNavigation.addItem(item2);
         bottomNavigation.addItem(item3);
         bottomNavigation.addItem(item4);
-        bottomNavigation.addItem(item5);
 
 // Set background color
         bottomNavigation.setDefaultBackgroundColor(Color.parseColor("#FEFEFE"));
@@ -68,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation.setNotificationBackgroundColor(Color.parseColor("#F63D2B"));
 
 // Add or remove notification for each item
-        bottomNavigation.setNotification("4", 2);
         bottomNavigation.setNotification("12", 1);
 //        bottomNavigation.setNotification("", 1);
         if (nearByFragment==null)nearByFragment=new NearByFragment();
@@ -85,18 +86,22 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction().replace(R.id.contentContainer, nearByFragment).commit();
 
                 }
-//                else if (position == 1) {
-//
-//                    if (missionCompleteFragment == null)
-//                        missionCompleteFragment = new MissionCompleteFragment();
-//                    getSupportFragmentManager().beginTransaction().replace(R.id.contentContainer, missionCompleteFragment).commit();
-//
-//                } else if (position == 2) {
-//
-////                    getSupportFragmentManager().beginTransaction().replace(R.id.contentContainer, new MyAlertsFragment()).commit();
-//
-//                }
-                else if (position == 4) {
+                else if (position == 1) {
+
+                    Utils.setToPrefString(Constants.KEY_FRAGMENTFLAG,"message",MainActivity.this);
+                    Utils.setToPrefString(Constants.KEY_SEND_COUND,"10",MainActivity.this);
+                    getSupportFragmentManager().beginTransaction().replace(R.id.contentContainer, new AvailableFragment()).commit();
+
+
+                }
+                else if (position == 2) {
+                    Utils.setToPrefString(Constants.KEY_FRAGMENTFLAG,"contact",MainActivity.this);
+                    Utils.setToPrefString(Constants.KEY_SEND_COUND,"15",MainActivity.this);
+                    getSupportFragmentManager().beginTransaction().replace(R.id.contentContainer, new AvailableFragment()).commit();
+
+
+                }
+                else if (position == 3) {
 
                     getSupportFragmentManager().beginTransaction().replace(R.id.contentContainer, new SettingFragment()).commit();
 

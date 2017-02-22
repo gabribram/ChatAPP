@@ -20,6 +20,7 @@ public class UserModel {
     private String latitude;
     private String address;
     private String email;
+    private String net_status;
 
     public UserModel() {
         this.objectId = "";
@@ -34,9 +35,10 @@ public class UserModel {
         this.latitude = "";
         this.address = "";
         this.email = "";
+        this.net_status="";
     }
 
-    public UserModel(String objectId, String createAt, String firstName, String lastName, String updateAt, String token, String photoURL, String birthday, String longitude, String latitude, String address, String email) {
+    public UserModel(String objectId, String createAt, String firstName, String lastName, String updateAt, String token, String photoURL, String birthday, String longitude, String latitude, String address, String email, String net_status) {
         this.objectId = objectId;
         this.createAt = createAt;
         this.firstName = firstName;
@@ -49,6 +51,15 @@ public class UserModel {
         this.latitude = latitude;
         this.address = address;
         this.email = email;
+        this.net_status = net_status;
+    }
+
+    public String getNet_status() {
+        return net_status;
+    }
+
+    public void setNet_status(String net_status) {
+        this.net_status = net_status;
     }
 
     public String getObjectId() {
@@ -162,6 +173,7 @@ public class UserModel {
         map.put("latitude", this.latitude);
         map.put("photoURL", this.photoURL);
         map.put("token", this.token);
+        map.put("net_status",this.net_status);
         return map;
     }
 

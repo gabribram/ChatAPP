@@ -1,7 +1,9 @@
 package com.gabri.gpschat.activity;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,9 +26,12 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.wang.avi.AVLoadingIndicatorView;
+
+import java.util.Calendar;
 
 public class LoginActivity extends AppCompatActivity {
     EditText email_edittext,password_edittext;
@@ -35,11 +40,17 @@ public class LoginActivity extends AppCompatActivity {
     String email, password;
     private AVLoadingIndicatorView avi;
     FirebaseAuth mAuth;
+    SharedPreferences cookies_string;
+    SharedPreferences.Editor editor;
+    DatabaseReference userDatabase;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        getSupportActionBar().hide();
+        userDatabase = FirebaseDatabase.getInstance().getReference(Constants.USER_TABLE);
+        cookies_string = getSharedPreferences(Constants.KEY_COOKIES, Context.MODE_PRIVATE);
+        editor = cookies_string.edit();
         avi= (AVLoadingIndicatorView) findViewById(R.id.avi);
         mAuth = FirebaseAuth.getInstance();
         login_button=(Button)findViewById(R.id.login_button);
@@ -96,7 +107,7 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    private void UserInformationRead(FirebaseUser user) {
+    private void UserInformationRead(final FirebaseUser user) {
         FirebaseDatabase.getInstance().getReference(Constants.USER_TABLE).child(user.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -108,7 +119,24 @@ public class LoginActivity extends AppCompatActivity {
                     if (model == null) {
 
                     } else {
-                        Constants.currentUserModel = model;
+                        editor.putString(Constants.KEY_FIRSTNAME,model.getFirstName());
+                        editor.putString(Constants.KEY_LASTNAME,model.getLastName());
+                        editor.putString(Constants.KEY_USERMAIL,model.getEmail());
+                        editor.putString(Constants.KEY_PHOTOURL,model.getPhotoURL());
+                        editor.putString(Constants.USER_ID, model.getObjectId());
+                        editor.commit();
+                        String uid = user.getUid();
+                        UserModel userModel = new UserModel();
+                        userModel.setObjectId(uid);
+                        userModel.setEmail(model.getEmail());
+                        userModel.setFirstName(model.getFirstName());
+                        userModel.setLastName(model.getLastName());
+                        userModel.setPhotoURL(model.getPhotoURL());
+                        String date = Calendar.getInstance().getTime().getTime() + "";
+                        userModel.setCreateAt(date);
+                        userModel.setUpdateAt(date);
+                        userModel.setNet_status("1");
+                        userDatabase.child(uid).setValue(userModel.getHashMap());
                         Intent intent=new Intent(LoginActivity.this,MainActivity.class);
                         startActivity(intent);
                     }

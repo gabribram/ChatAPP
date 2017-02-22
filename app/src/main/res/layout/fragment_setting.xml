@@ -15,7 +15,6 @@
         <Button
             android:text="signout"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
@@ -25,7 +24,8 @@
             android:id="@+id/signout_button"
             android:background="#ffff8a80"
             android:typeface="serif"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:layout_height="30dp" />
 
         <RelativeLayout
             android:layout_width="100dp"
@@ -71,6 +71,19 @@
             android:id="@+id/lastname_editText"
             android:typeface="serif"
             android:textColor="@color/white" />
+
+        <Button
+            android:text="@string/common_google_play_services_update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/update_button"
+            android:layout_below="@+id/lastname_editText"
+            android:layout_toLeftOf="@+id/signout_button"
+            android:layout_toStartOf="@+id/signout_button"
+            android:background="#ffff8a80"
+            android:typeface="serif"
+            android:textColor="@color/white"
+            android:layout_marginRight="5dp" />
 
     </RelativeLayout>
 </FrameLayout>

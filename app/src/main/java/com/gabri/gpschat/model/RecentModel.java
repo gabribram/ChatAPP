@@ -1,21 +1,41 @@
 package com.gabri.gpschat.model;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
 /**
  * Created by gabri on 18/02/2017.
  */
 
-public class RecentModel {
+public class RecentModel implements Serializable{
     private String objectId;
     private String groupId;
     private String otherUser;
+    private String otherRecentId;
     private String createAt;
     private String lastMessage;
     private String lastDate;
     private String updatedAt;
     private String otherUserName;
     private String userId;
+    private String avaiable_status;
+    private String unread_count_message;
+
+    public RecentModel(String objectId, String groupId, String otherUser, String otherRecentId, String createAt, String lastMessage, String lastDate, String updatedAt, String otherUserName, String userId, String avaiable_status, String unread_count_message) {
+        this.objectId = objectId;
+        this.groupId = groupId;
+        this.otherUser = otherUser;
+        this.otherRecentId = otherRecentId;
+        this.createAt = createAt;
+        this.lastMessage = lastMessage;
+        this.lastDate = lastDate;
+        this.updatedAt = updatedAt;
+        this.otherUserName = otherUserName;
+        this.userId = userId;
+        this.avaiable_status = avaiable_status;
+        this.unread_count_message = unread_count_message;
+    }
+
 
 
     public RecentModel() {
@@ -28,18 +48,24 @@ public class RecentModel {
         this.otherUserName = "";
         this.userId = "";
         this.groupId = "";
+        this.otherRecentId = "";
+        this.avaiable_status="";
+        this.unread_count_message="";
+
+    }
+    public String getAvaiable_status() {
+        return avaiable_status;
     }
 
-    public RecentModel(String objectId, String groupId, String otherUser, String createAt, String lastMessage, String lastDate, String updatedAt, String otherUserName, String userId) {
-        this.objectId = objectId;
-        this.groupId = groupId;
-        this.otherUser = otherUser;
-        this.createAt = createAt;
-        this.lastMessage = lastMessage;
-        this.lastDate = lastDate;
-        this.updatedAt = updatedAt;
-        this.otherUserName = otherUserName;
-        this.userId = userId;
+    public void setAvaiable_status(String avaiable_status) {
+        this.avaiable_status = avaiable_status;
+    }
+    public String getOtherRecentId() {
+        return otherRecentId;
+    }
+
+    public void setOtherRecentId(String otherRecentId) {
+        this.otherRecentId = otherRecentId;
     }
 
     public String getUserId() {
@@ -114,18 +140,30 @@ public class RecentModel {
         this.otherUserName = otherUserName;
     }
 
+    public String getUnread_count_message() {
+        return unread_count_message;
+    }
+
+    public void setUnread_count_message(String unread_count_message) {
+        this.unread_count_message = unread_count_message;
+    }
+
     public HashMap<String, String> getHashMap()
     {
         HashMap<String, String> map = new HashMap<>();
-        map.put("address", this.otherUser);
+        map.put("otherUser", this.otherUser);
         map.put("objectId", this.objectId);
         map.put("createAt", this.createAt);
+
         map.put("otherUserName", this.otherUserName);
         map.put("groupId", this.groupId);
         map.put("lastMessage", this.lastMessage);
         map.put("lastDate", this.lastDate);
         map.put("userId", this.userId);
         map.put("lastDate", this.lastDate);
+        map.put("otherRecentId", this.otherRecentId);
+        map.put("avaiable_status",this.avaiable_status);
+        map.put("unread_count_message",this.unread_count_message);
         return map;
     }
 }
