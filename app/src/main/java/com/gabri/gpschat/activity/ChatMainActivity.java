@@ -5,12 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
+import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.gabri.gpschat.LocationShowActivity;
 import com.gabri.gpschat.R;
 import com.gabri.gpschat.adapts.MessageAdapter;
 import com.gabri.gpschat.model.MessageModel;
@@ -18,7 +19,6 @@ import com.gabri.gpschat.model.RecentModel;
 import com.gabri.gpschat.model.UserModel;
 import com.gabri.gpschat.utility.Constants;
 import com.gabri.gpschat.utility.Utils;
-import com.google.android.gms.vision.text.Line;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -41,7 +41,7 @@ public class ChatMainActivity extends AppCompatActivity {
     MessageAdapter adapter;
     EmojiconEditText editText;
     TextView other_username_textview;
-    ImageButton back_imagebutton;
+    ImageButton back_imagebutton,location_imagebutton;
     String otherUserName, otherUserPhoto;
     String currentUserId, currentUserProfile, currentUserName;
     long currentDate;
@@ -52,6 +52,8 @@ public class ChatMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat_main);
         getSupportActionBar().hide();
+        this.getWindow().setSoftInputMode(
+                WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         Bundle bundle = getIntent().getExtras();
         model = (RecentModel) bundle.get("model");
         othermodel=(RecentModel)bundle.get("othermodel");
@@ -63,12 +65,20 @@ public class ChatMainActivity extends AppCompatActivity {
         editText = (EmojiconEditText) findViewById(R.id.editChat);
         other_username_textview=(TextView)findViewById(R.id.username_textView);
         back_imagebutton=(ImageButton)findViewById(R.id.exit_chat_imageButton);
+        location_imagebutton=(ImageButton)findViewById(R.id.locatioin_imageButton);
         back_imagebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
             model.setAvaiable_status("0");
             FirebaseDatabase.getInstance().getReference(Constants.RECENT_TABLE).child(model.getObjectId()).setValue(model.getHashMap());
             onBackPressed();
+            }
+        });
+        location_imagebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ChatMainActivity.this, LocationShowActivity.class);
+                startActivity(intent);
             }
         });
         GetData();
@@ -135,7 +145,7 @@ public class ChatMainActivity extends AppCompatActivity {
         chatLayout = (LinearLayout) findViewById(R.id.rootView);
         emojiBtn = (ImageButton) findViewById(R.id.btnEmoji);
         EmojIconActions  emojIcon=new EmojIconActions(this,chatLayout,editText,emojiBtn);
-        emojiBtn.setImageResource(R.drawable.ic_emoji);
+        emojiBtn.setImageResource(R.drawable.ic_emoticon);
         emojIcon.ShowEmojIcon();
         FirebaseDatabase.getInstance().getReference(Constants.USER_TABLE).child(model.getOtherUser()).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override

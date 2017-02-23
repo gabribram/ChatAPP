@@ -18,6 +18,7 @@ import com.gabri.gpschat.activity.ChatMainActivity;
 import com.gabri.gpschat.model.RecentModel;
 import com.gabri.gpschat.model.UserModel;
 import com.gabri.gpschat.utility.Constants;
+import com.gabri.gpschat.utility.Utils;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
@@ -82,34 +83,29 @@ public class AvailableUserAdapter extends BaseAdapter {
 
 
 
-        Query query = FirebaseDatabase.getInstance().getReference(Constants.RECENT_TABLE).orderByChild("otherUser").equalTo(userslist.get(position).getObjectId());
-        query.addListenerForSingleValueEvent(new ValueEventListener() {
+        Query query = FirebaseDatabase.getInstance().getReference(Constants.RECENT_TABLE).orderByChild("userId").equalTo(Utils.getFromPref(Constants.USER_ID,activity));
+        query.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                boolean ok = false;
-                RecentModel tempModel = new RecentModel();
+
+                boolean okflag = false;
                 for (DataSnapshot post : dataSnapshot.getChildren()) {
                     RecentModel model = post.getValue(RecentModel.class);
 
-                    if (model != null && model.getOtherUser().equals(uid))
-                    {
-                        ok = true;
-                        tempModel = model;
-                        break;
+                    if (model != null) {
+                        if (model.getOtherUser().equals(userslist.get(position).getObjectId()) && Integer.parseInt(model.getUnread_count_message()) > 0) {
+                            viewHolder.notification_textview.setVisibility(View.VISIBLE);
+                            viewHolder.notification_textview.setText(model.getUnread_count_message());
+                            okflag = true;
+                            break;
+                        }
                     }
                 }
-                if (ok == false)
+                if (!okflag)
                 {
-                    Log.d("ok", "null");
-                    createChatRoom(uid);
+                    viewHolder.notification_textview.setVisibility(View.GONE);
                 }
-                else
-                {
-                    Toast.makeText(getActivity(), "Already exists", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(getActivity(), ChatMainActivity.class);
-                    intent.putExtra("model", tempModel);
-                    startActivity(intent);
-                }
+
             }
 
             @Override
@@ -143,12 +139,12 @@ public class AvailableUserAdapter extends BaseAdapter {
     }
 
     private static final class ViewHolder {
-        private static AvatarView user_profile_avatarview;
-        private static TextView firstname_textview;
-        private static TextView lastname_textview;
-        private static ImageView add_imagebutton;
-        private static ImageView netstatus_imageview;
-        private static TextView notification_textview;
+        private AvatarView user_profile_avatarview;
+        private TextView firstname_textview;
+        private TextView lastname_textview;
+        private ImageView add_imagebutton;
+        private ImageView netstatus_imageview;
+        private TextView notification_textview;
     }
 
 }

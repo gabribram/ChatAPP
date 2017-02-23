@@ -51,7 +51,9 @@ public class NearByFragment extends Fragment //implements LocationListener
         gocontact_actionbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentContainer, new AvailableFragment()).commit();
+
             }
         });
 

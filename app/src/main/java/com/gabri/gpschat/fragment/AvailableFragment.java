@@ -58,15 +58,15 @@ public class AvailableFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         avaiable_view=inflater.inflate(R.layout.fragment_available, container, false);
-        alert_textview=(TextView)avaiable_view.findViewById(R.id.alert_textView);
+//        alert_textview=(TextView)avaiable_view.findViewById(R.id.alert_textView);
         fragment_string=Utils.getFromPref(Constants.KEY_FRAGMENTFLAG,getActivity());
         notification_string=Utils.getFromPref(Constants.KEY_SEND_COUND,getActivity());
-        if (fragment_string.equals("message")){
-           alert_textview.setText("You have unread "+notification_string+" messages!");
-        }
-        else if (fragment_string.equals("contact")){
-            alert_textview.setText("You have available contacts "+notification_string+" for chat!");
-        }
+//        if (fragment_string.equals("message")){
+//           alert_textview.setText("You have unread "+notification_string+" messages!");
+//        }
+//        else if (fragment_string.equals("contact")){
+//            alert_textview.setText("You have available contacts "+notification_string+" for chat!");
+//        }
 
 
 
@@ -87,11 +87,11 @@ public class AvailableFragment extends Fragment {
 
 
 
-        dialog.show();
+//        dialog.show();
         FirebaseDatabase.getInstance().getReference(Constants.USER_TABLE).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                dialog.dismiss();
+//                dialog.dismiss();
                 userlist = new ArrayList<UserModel>();
                 for (DataSnapshot post : dataSnapshot.getChildren())
                 {
@@ -153,7 +153,7 @@ public class AvailableFragment extends Fragment {
                 }
                 else
                 {
-                    Toast.makeText(getActivity(), "Already exists", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getActivity(), "Already exists", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getActivity(), ChatMainActivity.class);
                     intent.putExtra("model", tempModel);
                     startActivity(intent);

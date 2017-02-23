@@ -2,9 +2,9 @@
     <solid
         android:color="@android:color/white"/>
     <corners
-        android:radius="3dp" />
+        android:radius="2dp" />
     <stroke
-        android:color="@android:color/darker_gray"
+        android:color="#795548"
         android:width="1dp" />
     <padding
         android:left="10dp"
