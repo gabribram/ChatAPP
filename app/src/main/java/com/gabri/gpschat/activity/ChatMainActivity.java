@@ -78,6 +78,7 @@ public class ChatMainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(ChatMainActivity.this, LocationShowActivity.class);
+                intent.putExtra("other_user",model.getOtherUser());
                 startActivity(intent);
             }
         });

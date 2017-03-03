@@ -16,7 +16,7 @@ import com.gabri.gpschat.NearByFragment;
 
 public class GPSTracker extends Service implements LocationListener {
 
-    public final Context mContext;
+    public  Context mContext;
 
     // flag for GPS status
     boolean isGPSEnabled = false;
@@ -41,12 +41,30 @@ public class GPSTracker extends Service implements LocationListener {
     protected LocationManager locationManager;
 
     protected String bestProvider;
-
+    public  Handler handler;
     public GPSTracker(Context context) {
         this.mContext = context;
         getLocation();
     }
 
+    public GPSTracker() {
+        this.mContext = getBaseContext();
+        getLocation();
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+
+
+
+        return Service.START_STICKY;
+    }
+
+    @Override
+    public void onDestroy() {
+
+        handler.removeCallbacks(locationTask);
+    }
     public Location getLocation() {
         try {
             locationManager = (LocationManager) mContext
@@ -62,7 +80,7 @@ public class GPSTracker extends Service implements LocationListener {
 
             if (!isGPSEnabled && !isNetworkEnabled) {
                 // no network provider is enabled
-
+                Log.d("GPSNetworkexception", null);
             } else {
                 this.canGetLocation = true;
                 // First get location from Network Provider
@@ -83,6 +101,7 @@ public class GPSTracker extends Service implements LocationListener {
                             }
                         }
                     } catch (SecurityException e) {
+                        Log.d("Networkexception", e.getLocalizedMessage());
                         e.printStackTrace();
                     }
 
@@ -106,6 +125,7 @@ public class GPSTracker extends Service implements LocationListener {
                         }
 
                     } catch (SecurityException e) {
+                        Log.d("GPSexception", e.getLocalizedMessage());
                         e.printStackTrace();
                     }
 
@@ -113,6 +133,7 @@ public class GPSTracker extends Service implements LocationListener {
             }
 
         } catch (Exception e) {
+            Log.d("exception", e.getLocalizedMessage());
             e.printStackTrace();
         }
 
@@ -158,11 +179,12 @@ public class GPSTracker extends Service implements LocationListener {
 
 
     @Override
-    public void onLocationChanged(Location location) {
+    public void onLocationChanged(Location loc) {
 
-        if (location != null) {
-            latitude = location.getLatitude();
-            longitude = location.getLongitude();
+        if (loc != null) {
+            Log.d("location", loc.getLongitude() + " " + loc.getLatitude());
+            latitude = loc.getLatitude();
+            longitude = loc.getLongitude();
 
         }
     }
@@ -186,19 +208,19 @@ public class GPSTracker extends Service implements LocationListener {
         return null;
     }
 
+    Runnable locationTask;
     public void waitForLocation() {
 
-        final Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
+        handler = new Handler();
+        locationTask = new Runnable() {
             @Override
             public void run() {
                 //Do something after 100ms
                 if (location != null) {
-                    getLocation();
-                    latitude = location.getLatitude();
-                    longitude = location.getLongitude();
+
 
                 }
+                Log.d("testlocation",Double.toString(latitude)+":"+Double.toString(longitude));
                 if (latitude == 0 && longitude == 0) {
                     Log.e("Provider Enabled", "invalid coordinates looping again");
                     waitForLocation();
@@ -207,7 +229,8 @@ public class GPSTracker extends Service implements LocationListener {
 //                    NearByFragment.setUpMap();
                 }
             }
-        }, 5000);
+        };
+        handler.postDelayed(locationTask, 5000);
     }
 
 }

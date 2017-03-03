@@ -90,4 +90,20 @@
         app:indicatorName="BallScaleIndicator"
         app:indicatorColor="#FFFFFF"
     />
+
+    <Button
+        android:text="LogIn Facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/signup_textView"
+        android:layout_marginTop="13dp"
+        android:id="@+id/button3"
+        android:onClick="OnFacebook"
+        android:layout_alignRight="@+id/login_button"
+        android:layout_alignEnd="@+id/login_button"
+        android:layout_alignLeft="@+id/login_button"
+        android:layout_alignStart="@+id/login_button"
+        android:background="#ff5c6bc0"
+        android:typeface="serif"
+        android:textColor="@color/white" />
 </RelativeLayout>

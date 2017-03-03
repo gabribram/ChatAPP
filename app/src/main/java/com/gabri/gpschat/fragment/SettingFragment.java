@@ -1,27 +1,46 @@
 package com.gabri.gpschat.fragment;
 
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.location.Location;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.Switch;
+import android.widget.Toast;
 
+import com.facebook.AccessToken;
+import com.facebook.login.LoginManager;
+import com.gabri.gpschat.MainActivity;
 import com.gabri.gpschat.R;
 import com.gabri.gpschat.activity.LoginActivity;
 import com.gabri.gpschat.model.UserModel;
 import com.gabri.gpschat.utility.Constants;
+import com.gabri.gpschat.utility.GPSTracker;
+import com.gabri.gpschat.utility.LocatioinService;
+import com.gabri.gpschat.utility.LocationTracker;
+import com.gabri.gpschat.utility.TrackerSettings;
+import com.gabri.gpschat.utility.Utils;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.model.CameraPosition;
+import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -37,6 +56,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.Calendar;
 
 import agency.tango.android.avatarview.IImageLoader;
@@ -60,15 +80,15 @@ public class SettingFragment extends Fragment {
     Button logout_button,update_button;
     EditText firstname_edittext,lastname_edit;
     private AvatarView profileImageview;
-    private static final String STONOGA_IMAGE = "http://brzeg24.pl/wp-content/uploads/2015/06/Zbigniew-Stonoga-e1434539892479.jpg";
     private IImageLoader imageLoader;
     static final int REQUEST_IMAGE_CAPTURE = 1;
     SharedPreferences cookies_string;
     SharedPreferences.Editor editor;
-
+    LocationTracker tracker;
     String path,avata_path;
     Bitmap userBitmap;
     ACProgressFlower dialog;
+    MainActivity mainActivity;
     public SettingFragment() {
         // Required empty public constructor
     }
@@ -81,6 +101,7 @@ public class SettingFragment extends Fragment {
         setting_view=inflater.inflate(R.layout.fragment_setting, container, false);
         cookies_string = getActivity().getSharedPreferences(Constants.KEY_COOKIES, Context.MODE_PRIVATE);
         editor = cookies_string.edit();
+        mainActivity = MainActivity.getInstance();
         avata_path=cookies_string.getString(Constants.KEY_PHOTOURL,null);
         userDatabase = FirebaseDatabase.getInstance().getReference(Constants.USER_TABLE);
         logout_button=(Button)setting_view.findViewById(R.id.signout_button);
@@ -127,7 +148,12 @@ public class SettingFragment extends Fragment {
 
         auth.signOut();
 
-
+//            mAuth.signOut();
+            if (AccessToken.getCurrentAccessToken() != null)
+            {
+                LoginManager.getInstance().logOut();
+            }
+        if (Utils.getFromPref(Constants.FACEBOOK, getActivity()).equals("true"))   Utils.setToPrefString(Constants.FACEBOOK, "false", getActivity());
         UserModel userModel = new UserModel();
         userModel.setObjectId(cookies_string.getString(Constants.USER_ID,null));
         userModel.setEmail(cookies_string.getString(Constants.KEY_USERMAIL,null));
@@ -252,6 +278,13 @@ public class SettingFragment extends Fragment {
             profileImageview.setImageBitmap(thumbnail);
         }
     }
+
+public void start_locationupload(){
+
+
+
+
+}
 
 
 

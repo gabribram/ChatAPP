@@ -22,4 +22,6 @@ public class Constants {
     public static final String KEY_SEND_COUND="send_flag";
 
     public static final String USER_ID  = "userId";
+
+    public static final String FACEBOOK = "facebook_login";
 }

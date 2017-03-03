@@ -9,9 +9,13 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.gabri.gpschat.MainActivity;
 import com.gabri.gpschat.R;
+import com.gabri.gpschat.utility.GPSTracker;
+import com.gabri.gpschat.utility.LocatioinService;
+import com.google.android.gms.location.LocationServices;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class StartActivity extends AppCompatActivity {
@@ -20,9 +24,11 @@ public class StartActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestStoragePermission();
+
         setContentView(R.layout.activity_start);
         auth=FirebaseAuth.getInstance();
-        requestStoragePermission();
+
 
     }
     public void getUserSession(){

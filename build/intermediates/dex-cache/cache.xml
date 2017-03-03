@@ -2,742 +2,760 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.2.0_54a237c1a03694373afc1006502508f9283acb27/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.2.0_7bc8bbd8bedd89c9a345c7f8fb1e4799549288e3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_37451f7de86e98990f540f88a739967d6e665d80/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-library-1.2.1_fea82a08eef533dd001b8ce0a0900239bc4f72c2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3f4483afd050f3be12db7838422309446a45daa1">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.2.0_33ad26105d9ceb32831845d1a26e6ee3a92645ea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_4bc353c37332a5f10fa5fea8f28c8c194ec28d14/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.2.0_cda7f16df003632b45ae03d3b9651479848a0b64/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="22d39e15bdaf8de877e924bf19388460079fd542">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3a2157e7d424dce90de86fc0edff145e7f3cbbb7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.2.0_7450e0ef5c199b6553a4722b55ed28d738a50cc8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.2.0_4edfd9513c11df8d8feecb6e7725132a109210a9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.0_6e61a23b493cc010f5cde8cc62c043b079c87434/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view-bindings/0.0.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e66c6bf82c2f32e11422f3062421b5b5aba889f1">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/agency.tango.android-avatar-view-bindings-0.0.2_ffc4374dbd6efff7bcc3f58a291ca17a80428d00/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_01b7f3954b58a6a01a37be83a5f5925fee38afae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.2.0_afcdb79c07e0a4d04bb896201f15f6e971e2ebc4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view-glide/0.0.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="96b419ecd8b8d21681e6706420a2c333d8fc0cd7">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/agency.tango.android-avatar-view-glide-0.0.2_3709bc1d9fa4bbe49ac99d74ed97d572465231b4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_fe10843f292438a2d45e4b1402a7a0a643d1b46b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.2.0_9d31d74a43843fd6068e959627b8306132697bee/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.2.0_2c11ba053529b1812439a308315cc0346bb741b9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.2.0_3fb6a689c698fdb4026ed61ed1c71c9ced6c8be6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.2.0_2ad825fd0d805ce9672512ea9ec969fd6e9400ee/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.2.0_512421eb6aed7651dc5f63795cca9e7bca714bf9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.2.0_911e5ed38834d5c58575610996bc578265f9489d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_23a09f6f1780761173bc4cf400f28a43c30bc55d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/gabri/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_28f4e469320cf15647be6556f5514336218bf611/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.2.0_3c2a551377111665bed5c58a92ecdd55bc0e976d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_eef334630c1c6178f99cf64de129d6099ffaf26d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b831d3902674d096189451d46fce219e2c2904b7">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.2.0_41c6a7d1a433c00cb118feee2673a5f587c82c32/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_7ce69d999372c617f2990ae582ba93471f0728bd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.2.0_44a6a9d2c561995a9c7a951d252117c1ef1f1ce0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94fca868854457ede6df15c902938468c71d579e">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.2.0_31aa8bd2307f893f416d1902cbb9284f4a042d79/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_e2e7b84ff58062e975c0e3df411dcc80ee5070b7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.2.0_27946a6386afcc42f118c1b194ce8b557be66adf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.2.0_359e4cf1c0e19679b1393ee58653d5e1664d7f65/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="90270132a5f1a33584f453c571257dd35e728201">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.2.0_89abc400b9ce02a444e9cdf1cf321633abdd1ff0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.2.0_6b333370892823c27c1cc1f882db11ad3e7585e2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="67bf5b47b47bf06da20176c3f8c0dc861f3c03cb">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1496e6a2237c4fca8b1ffce28a061599b8c0f60c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.6/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1bc8b9eff35f11b60b4b361dc9cc967432789f16">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.leolin-ShortcutBadger-1.1.6_67f7db6b29ff90ac2e5ec9d49388ebfe5e611065/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.2.0_bffa1fcd97eb33b5ff3b4e0939147659a70e40be/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.2.0_cacf74dbc273f922f22ce2cf8fceb449a2262890/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.jakewharton.timber/timber/4.3.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a11388058c8c82cbdb5e8646f1c37adfc7755d6">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton.timber-timber-4.3.0_8cfc3c57eaa5a0faadf72b7ea604e0e1950f7abe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.2.0_5c4c70b560475a5a9126940060865186436aa9ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/hani.momanii.supernova_emoji_library/supernova-emoji-library/0.0.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b83e82da8c456a9766711909d277d6bdda6c0a24">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/hani.momanii.supernova_emoji_library-supernova-emoji-library-0.0.2_166c3d839a5847edf64e0827784f307d85b09320/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view/0.0.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9744383e864cd272d30b54848a1c1b5f840d23f2">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/agency.tango.android-avatar-view-0.0.2_a24f861278e1ce51dddbdcbb85db1f78e6c4e5d4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_129b00ab10b255b23fe8d4071f8c9a03ac310d7c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_5840998410e84d167240930e35e037009b45290c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/gabri/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_15a0fd480e7af0ce88c478dea5dd199654bf65b9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_77ebbf1942364c08862c71fb9aaa6184008025e6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.2.0_ccb18791c9398f50a799fb0b5b9ffdd1884ea2f8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.2.0_ec1da52c4532f9379f466e626cefd12996aa9af9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.2.0_311781d0f3c849d2ffa3bc6c527525cb45b0ae6a/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-instantapps-10.2.0_311781d0f3c849d2ffa3bc6c527525cb45b0ae6a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view-picasso/0.0.2/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="a62dd320116a3b33f66cf17396147c1fbc2e194e">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/agency.tango.android-avatar-view-picasso-0.0.2_1c1c831208dfd567c0202cfa3d94cf15c517cf50/classes.dex" />
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-10.2.0_5c4c70b560475a5a9126940060865186436aa9ac.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.0_bb43563e7167b5900a15ab870c416ca549ba1295/classes.dex" />
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.1.0_77ebbf1942364c08862c71fb9aaa6184008025e6.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view/0.0.2/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.2.0_db246b004456d94b3b8984ac0fcb37ab18e2608d/classes.dex" />
+        sha1="9744383e864cd272d30b54848a1c1b5f840d23f2">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/agency.tango.android-avatar-view-0.0.2_a24f861278e1ce51dddbdcbb85db1f78e6c4e5d4.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.wang.avi/library/2.1.3/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/gabri/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.3.0/bc535105332645408ef5f1380215cc954b842178/bolts-applinks-1.3.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e699699fae0092703de1d02b217f43803d0f7e0a">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.wang.avi-library-2.1.3_f0b6ccc22477ded592f75868b12f995cc5d45193/classes.dex" />
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/bolts-applinks-1.3.0_079eea84a3a65fc3f44c5f7bfc90876374045042.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/hani.momanii.supernova_emoji_library/supernova-emoji-library/0.0.2/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.2.0_f924a44a26233a0fc91a2ae29118ce13bde4ad28/classes.dex" />
+        sha1="b83e82da8c456a9766711909d277d6bdda6c0a24">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/hani.momanii.supernova_emoji_library-supernova-emoji-library-0.0.2_166c3d839a5847edf64e0827784f307d85b09320.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.2.2/baseLibrary-2.2.2.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="8e3519b9d5287840df40776a8268ae336ca9f063">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.2_7ed53c723ae13fdba19a1b45153e478d184e8ae5/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/baseLibrary-2.2.2_7ed53c723ae13fdba19a1b45153e478d184e8ae5.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-connection-10.2.0_ccb18791c9398f50a799fb0b5b9ffdd1884ea2f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.9.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5c9b831cf63629b8b3873959e52515340484a880">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.facebook.android-facebook-android-sdk-4.9.0_6105ce7acf7d20c6726c9e57bc58e9c5ae7b0223.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/internal_impl-24.0.0_5840998410e84d167240930e35e037009b45290c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-iid-10.2.0_ec1da52c4532f9379f466e626cefd12996aa9af9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-25.1.0_129b00ab10b255b23fe8d4071f8c9a03ac310d7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-storage-common-10.2.0_f924a44a26233a0fc91a2ae29118ce13bde4ad28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabri/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/picasso-2.5.2_15a0fd480e7af0ce88c478dea5dd199654bf65b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.0_bb43563e7167b5900a15ab870c416ca549ba1295.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view-picasso/0.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a62dd320116a3b33f66cf17396147c1fbc2e194e">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/agency.tango.android-avatar-view-picasso-0.0.2_1c1c831208dfd567c0202cfa3d94cf15c517cf50.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.2.0_c5eb132505448e878f2e6bb7a27f65420d46794e/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-storage-10.2.0_c5eb132505448e878f2e6bb7a27f65420d46794e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.2.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.2.0_d0822e77f42e0120f9ab5c30c73717e68efc12b1/classes.dex" />
+        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-cast-framework-10.2.0_db246b004456d94b3b8984ac0fcb37ab18e2608d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.wang.avi/library/2.1.3/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.2.0_e36d5a3d70c46c80d5931681e4404dd0ce0b2841/classes.dex" />
+        sha1="e699699fae0092703de1d02b217f43803d0f7e0a">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.wang.avi-library-2.1.3_f0b6ccc22477ded592f75868b12f995cc5d45193.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/gabri/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.3.0/8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c/bolts-tasks-1.3.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.2.0_8dd93db6129ad468616c5e105859a9850151f4c1/classes.dex" />
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/bolts-tasks-1.3.0_2610d4f7fea432ba82ea2c492b9d75139cfa6b8e.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.2.0_8a166526e272ae23432c5b0fe5adecc9fa371d4d/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gcm-10.2.0_8a166526e272ae23432c5b0fe5adecc9fa371d4d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/cc.cloudist.acplibrary/library/1.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.2.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d552d4ef38b67a9fef70d917bb5c79b3aed7fb9f">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/cc.cloudist.acplibrary-library-1.2.1_21d1ab6f7fb55e6bfa45dc80a746e690472d7bf3/classes.dex" />
+        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-panorama-10.2.0_e36d5a3d70c46c80d5931681e4404dd0ce0b2841.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.2.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.2.0_9a6cec835e92ce58e5406678b226e62752fd57da/classes.dex" />
+        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tagmanager-api-10.2.0_d0822e77f42e0120f9ab5c30c73717e68efc12b1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.2.0_b276f7bfb992bbdeaface618ed525e185c9c74ca/classes.dex" />
+        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-wallet-10.2.0_8dd93db6129ad468616c5e105859a9850151f4c1.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_d650e86020c2cd5e7c6822d7f736d4b80f6c5a4b/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-mediarouter-v7-24.0.0_d650e86020c2cd5e7c6822d7f736d4b80f6c5a4b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.2.0_986d8e08cb0c318d0b09d2db2ce6c983b14eaebb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Volumes/DATA/DEVELOPMENT_LIBS/android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_14368cfe73f3fafa83bf3b73c6824b3401d0c4e8/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/support-annotations-25.1.0_14368cfe73f3fafa83bf3b73c6824b3401d0c4e8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.2.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_52c576cebbdee551e0a1daab5ee5e3545e24afb3/classes.dex" />
+        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-config-10.2.0_9a6cec835e92ce58e5406678b226e62752fd57da.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-10.2.0_986d8e08cb0c318d0b09d2db2ce6c983b14eaebb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/cc.cloudist.acplibrary/library/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d552d4ef38b67a9fef70d917bb5c79b3aed7fb9f">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/cc.cloudist.acplibrary-library-1.2.1_21d1ab6f7fb55e6bfa45dc80a746e690472d7bf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-appindexing-10.2.0_b276f7bfb992bbdeaface618ed525e185c9c74ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.2.0_66a87d05209567f99bb8c0aeaec9fbbec76966fd/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-plus-10.2.0_66a87d05209567f99bb8c0aeaec9fbbec76966fd.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.2.0_967d712014747ee64004b0ff824201e0c4a61fe7/classes.dex" />
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.1.0_52c576cebbdee551e0a1daab5ee5e3545e24afb3.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_b5e66c2e1bbfa3ab4ca95cbaf6e4068aecc9b5de/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.2.0_fd68b88c223b0eb8497b62a5037963aabd141b7f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.2.0_363aaae90670339e4d4a15f4a973d3c214f518a5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/1.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d27ce231f26fe405edc99031ff634c6c67431bc8">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.aurelhubert-ahbottomnavigation-1.4.0_360a2883750518f5c0ab3c48e62b646dc131a962/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_49c97761aba24ef40b201ab8e0adee73d34bddb6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="48532a016bb0dfbe7970c147ce784598a515406b">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.2.0_4fab46a8d6e9e40cb7f691cde4b21619a696f587/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-10.2.0_4fab46a8d6e9e40cb7f691cde4b21619a696f587.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-palette-v7-24.0.0_b5e66c2e1bbfa3ab4ca95cbaf6e4068aecc9b5de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-multidex-1.0.1_cb58fb7e22167bb5358a8a194e4697eb3eda6de6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-25.1.0_49c97761aba24ef40b201ab8e0adee73d34bddb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-identity-10.2.0_363aaae90670339e4d4a15f4a973d3c214f518a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-vision-10.2.0_fd68b88c223b0eb8497b62a5037963aabd141b7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.2.0_d1dca70b23db4997c4def9318a412c854cd39e52/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gass-10.2.0_d1dca70b23db4997c4def9318a412c854cd39e52.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.2.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_b9060a5b49861f4008839fb07a93b78071a52d30/classes.dex" />
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-clearcut-10.2.0_33ad26105d9ceb32831845d1a26e6ee3a92645ea.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.2.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.2.0_f023a5b5f9b995599e9f9610bf9af37ab8740d30/classes.dex" />
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-auth-base-10.2.0_967d712014747ee64004b0ff824201e0c4a61fe7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.2.0_714fa04b365948d034a7c2938716608b912032ca/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a9493f008850469ed3fab9b28658919562882aed">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.2.0_75f61bce6c4944d11df94a97db1318ab30bea05b/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tagmanager-10.2.0_75f61bce6c4944d11df94a97db1318ab30bea05b.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-10.2.0_f023a5b5f9b995599e9f9610bf9af37ab8740d30.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
-        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.2.0_efd71361c28d8e4a447573949f3882f9b4806280/classes.dex" />
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-10.2.0_efd71361c28d8e4a447573949f3882f9b4806280.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-10.2.0_54a237c1a03694373afc1006502508f9283acb27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-games-10.2.0_7bc8bbd8bedd89c9a345c7f8fb1e4799549288e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-25.1.0_b9060a5b49861f4008839fb07a93b78071a52d30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-10.2.0_3fb6a689c698fdb4026ed61ed1c71c9ced6c8be6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-messaging-10.2.0_714fa04b365948d034a7c2938716608b912032ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-maps-10.2.0_9d31d74a43843fd6068e959627b8306132697bee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.databinding-library-1.2.1_fea82a08eef533dd001b8ce0a0900239bc4f72c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-safetynet-10.2.0_afcdb79c07e0a4d04bb896201f15f6e971e2ebc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/1.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d27ce231f26fe405edc99031ff634c6c67431bc8">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.aurelhubert-ahbottomnavigation-1.4.0_360a2883750518f5c0ab3c48e62b646dc131a962.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-10.2.0_cda7f16df003632b45ae03d3b9651479848a0b64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-25.1.0_37451f7de86e98990f540f88a739967d6e665d80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-25.1.0_4bc353c37332a5f10fa5fea8f28c8c194ec28d14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-10.2.0_2c11ba053529b1812439a308315cc0346bb741b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-impl-10.2.0_7450e0ef5c199b6553a4722b55ed28d738a50cc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-cardview-v7-25.1.0_6e61a23b493cc010f5cde8cc62c043b079c87434.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-10.2.0_4edfd9513c11df8d8feecb6e7725132a109210a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-places-10.2.0_2ad825fd0d805ce9672512ea9ec969fd6e9400ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view-glide/0.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="96b419ecd8b8d21681e6706420a2c333d8fc0cd7">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/agency.tango.android-avatar-view-glide-0.0.2_3709bc1d9fa4bbe49ac99d74ed97d572465231b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-25.1.0_01b7f3954b58a6a01a37be83a5f5925fee38afae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/agency.tango.android/avatar-view-bindings/0.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e66c6bf82c2f32e11422f3062421b5b5aba889f1">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/agency.tango.android-avatar-view-bindings-0.0.2_ffc4374dbd6efff7bcc3f58a291ca17a80428d00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.databinding-adapters-1.2.1_fe10843f292438a2d45e4b1402a7a0a643d1b46b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-25.1.0_23a09f6f1780761173bc4cf400f28a43c30bc55d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-10.2.0_911e5ed38834d5c58575610996bc578265f9489d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-fitness-10.2.0_512421eb6aed7651dc5f63795cca9e7bca714bf9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-25.1.0_eef334630c1c6178f99cf64de129d6099ffaf26d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-crash-10.2.0_3c2a551377111665bed5c58a92ecdd55bc0e976d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90270132a5f1a33584f453c571257dd35e728201">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-drive-10.2.0_89abc400b9ce02a444e9cdf1cf321633abdd1ff0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appinvite-10.2.0_6b333370892823c27c1cc1f882db11ad3e7585e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-design-25.1.0_e2e7b84ff58062e975c0e3df411dcc80ee5070b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabri/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/glide-3.7.0_28f4e469320cf15647be6556f5514336218bf611.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-auth-10.2.0_41c6a7d1a433c00cb118feee2673a5f587c82c32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-10.2.0_31aa8bd2307f893f416d1902cbb9284f4a042d79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-cast-10.2.0_cacf74dbc273f922f22ce2cf8fceb449a2262890.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-nearby-10.2.0_27946a6386afcc42f118c1b194ce8b557be66adf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.android.support-transition-25.1.0_7ce69d999372c617f2990ae582ba93471f0728bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-awareness-10.2.0_44a6a9d2c561995a9c7a951d252117c1ef1f1ce0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.jakewharton.timber/timber/4.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a11388058c8c82cbdb5e8646f1c37adfc7755d6">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.jakewharton.timber-timber-4.3.0_8cfc3c57eaa5a0faadf72b7ea604e0e1950f7abe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-wearable-10.2.0_359e4cf1c0e19679b1393ee58653d5e1664d7f65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bc8b9eff35f11b60b4b361dc9cc967432789f16">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/me.leolin-ShortcutBadger-1.1.6_67f7db6b29ff90ac2e5ec9d49388ebfe5e611065.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="/Volumes/WORK/ANDROID/ChatAPP/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-location-10.2.0_bffa1fcd97eb33b5ff3b4e0939147659a70e40be.jar" />
     </item>
 
 </items>

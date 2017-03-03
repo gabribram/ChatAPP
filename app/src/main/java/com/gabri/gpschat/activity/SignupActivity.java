@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,6 +18,7 @@ import com.gabri.gpschat.MainActivity;
 import com.gabri.gpschat.R;
 import com.gabri.gpschat.model.UserModel;
 import com.gabri.gpschat.utility.Constants;
+import com.gabri.gpschat.utility.GPSTracker;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -64,8 +66,10 @@ public class SignupActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        gpsTracker = new GPSTracker(this);
     }
 
+    GPSTracker gpsTracker;
     ProgressDialog progressDialog;
     private void signup()
     {
@@ -88,16 +92,21 @@ public class SignupActivity extends AppCompatActivity {
                         } else {
                             FirebaseUser user = task.getResult().getUser();
                             String uid = user.getUid();
+                            Log.d("key",uid);
                             UserModel userModel = new UserModel();
                             userModel.setObjectId(uid);
                             userModel.setEmail(emailstring);
                             userModel.setFirstName(firstnamestring);
                             userModel.setLastName(lastnamestring);
+                            userModel.setLatitude(gpsTracker.getLatitude() + "");
+                            userModel.setLongitude(gpsTracker.getLongitude() + "");
                             String date = Calendar.getInstance().getTime().getTime() + "";
                             userModel.setCreateAt(date);
                             userModel.setUpdateAt(date);
                             userModel.setNet_status("1");
                             userDatabase.child(uid).setValue(userModel.getHashMap());
+                            editor.putString(Constants.USER_ID,uid);
+                            editor.putString(Constants.KEY_PHOTOURL,"");
                             editor.putString(Constants.KEY_FIRSTNAME,firstnamestring);
                             editor.putString(Constants.KEY_LASTNAME,lastnamestring);
                             editor.putString(Constants.KEY_USERMAIL,emailstring);

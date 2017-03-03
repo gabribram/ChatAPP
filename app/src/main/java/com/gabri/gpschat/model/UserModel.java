@@ -31,8 +31,8 @@ public class UserModel {
         this.token = "";
         this.photoURL = "";
         this.birthday = "";
-        this.longitude = "";
-        this.latitude = "";
+        this.longitude = "0.0";
+        this.latitude = "0.0";
         this.address = "";
         this.email = "";
         this.net_status="";

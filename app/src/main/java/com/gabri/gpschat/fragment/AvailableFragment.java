@@ -3,6 +3,7 @@ package com.gabri.gpschat.fragment;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -22,6 +23,7 @@ import com.gabri.gpschat.adapts.AvailableUserAdapter;
 import com.gabri.gpschat.model.RecentModel;
 import com.gabri.gpschat.model.UserModel;
 import com.gabri.gpschat.utility.Constants;
+import com.gabri.gpschat.utility.GPSTracker;
 import com.gabri.gpschat.utility.Utils;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -48,6 +50,8 @@ public class AvailableFragment extends Fragment {
     private List<UserModel> userlist;
     ACProgressFlower dialog;
     String currentUserId,fragment_string,notification_string;
+    GPSTracker gpsTracker;
+    Location mycurrent_location;
     public AvailableFragment() {
         // Required empty public constructor
     }
@@ -84,8 +88,10 @@ public class AvailableFragment extends Fragment {
     }
     public void load_user(){
 
-
-
+        gpsTracker=new GPSTracker(getActivity());
+        mycurrent_location=new Location("A");
+        mycurrent_location.setLatitude(gpsTracker.getLatitude());
+        mycurrent_location.setLongitude(gpsTracker.getLongitude());
 
 //        dialog.show();
         FirebaseDatabase.getInstance().getReference(Constants.USER_TABLE).addValueEventListener(new ValueEventListener() {
@@ -96,8 +102,16 @@ public class AvailableFragment extends Fragment {
                 for (DataSnapshot post : dataSnapshot.getChildren())
                 {
                     UserModel model = post.getValue(UserModel.class);
-                    Log.d("value", post.toString());
-                    userlist.add(model);
+                    Location other_locations=new Location("B");
+                    other_locations.setLongitude(Double.parseDouble(model.getLongitude()));
+                    other_locations.setLatitude(Double.parseDouble(model.getLatitude()));
+                    float distance=mycurrent_location.distanceTo(other_locations);
+                    Log.d("distance",Float.toString(distance));
+                    if (distance<=300){
+                        userlist.add(model);
+                    }
+//                    userlist.add(model);
+
                 }
                 adapter = new AvailableUserAdapter(getActivity(), userlist);
                 availble_userlistview.setAdapter(adapter);
