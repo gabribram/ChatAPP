@@ -78,6 +78,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(LoginActivity.this,SignupActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
         login_button.setOnClickListener(new View.OnClickListener() {
@@ -138,6 +139,7 @@ public class LoginActivity extends AppCompatActivity {
                     userModel.setCreateAt(date);
                     userModel.setUpdateAt(date);
                     userModel.setNet_status("1");
+                    userModel.setFacebook_flag("1");
                     userDatabase.child(uid).setValue(userModel.getHashMap());
                     editor.putString(Constants.USER_ID,uid);
                     editor.putString(Constants.KEY_FIRSTNAME,user.getDisplayName());
@@ -147,6 +149,7 @@ public class LoginActivity extends AppCompatActivity {
                     editor.commit();
                     Intent intent=new Intent(LoginActivity.this,MainActivity.class);
                     startActivity(intent);
+                    finish();
                 }
             }
         })
@@ -244,6 +247,7 @@ public class LoginActivity extends AppCompatActivity {
                     if (model == null) {
 
                     } else {
+                        Utils.setToPrefString(Constants.FACEBOOK, "false", LoginActivity.this);
                         editor.putString(Constants.KEY_FIRSTNAME,model.getFirstName());
                         editor.putString(Constants.KEY_LASTNAME,model.getLastName());
                         editor.putString(Constants.KEY_USERMAIL,model.getEmail());
@@ -264,6 +268,7 @@ public class LoginActivity extends AppCompatActivity {
                         userDatabase.child(uid).setValue(userModel.getHashMap());
                         Intent intent=new Intent(LoginActivity.this,MainActivity.class);
                         startActivity(intent);
+                        finish();
                     }
                 }
                 catch (Exception e){};

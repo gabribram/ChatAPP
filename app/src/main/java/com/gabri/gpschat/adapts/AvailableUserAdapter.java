@@ -26,6 +26,7 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 import agency.tango.android.avatarview.IImageLoader;
@@ -39,6 +40,8 @@ import agency.tango.android.avatarview.views.AvatarView;
 public class AvailableUserAdapter extends BaseAdapter {
     private Activity activity;
     private LayoutInflater inflater;
+    private Calendar calendar;
+    private int year;
     private List<UserModel> userslist = new ArrayList<>();
     String currentUserId;
     public AvailableUserAdapter(Activity activity, List<UserModel> userslist) {
@@ -78,8 +81,25 @@ public class AvailableUserAdapter extends BaseAdapter {
         } else {
             viewHolder = (ViewHolder) view.getTag();
         }
-        viewHolder.firstname_textview.setText(userslist.get(position).getFirstName());
-        viewHolder.lastname_textview.setText(userslist.get(position).getLastName());
+        if (userslist.get(position).getFacebook_flag().equals("1")){
+            String[] name_tmpstring=userslist.get(position).getFirstName().split(" ");
+            viewHolder.firstname_textview.setText(name_tmpstring[0]);
+        }
+        else
+        {
+            viewHolder.firstname_textview.setText(userslist.get(position).getFirstName());
+        }
+        calendar = Calendar.getInstance();
+        year = calendar.get(Calendar.YEAR);
+        if (userslist.get(position).getBirthday().equals("")){
+            viewHolder.lastname_textview.setText("age: "+"unknow");
+        }
+        else {
+            String[] birthday=userslist.get(position).getBirthday().split("/");
+            int age=year-Integer.parseInt(birthday[2]);
+            viewHolder.lastname_textview.setText("age: "+""+age);
+        }
+
 
 
 
@@ -90,6 +110,7 @@ public class AvailableUserAdapter extends BaseAdapter {
 
                 boolean okflag = false;
                 for (DataSnapshot post : dataSnapshot.getChildren()) {
+
                     RecentModel model = post.getValue(RecentModel.class);
 
                     if (model != null) {
@@ -100,6 +121,7 @@ public class AvailableUserAdapter extends BaseAdapter {
                             break;
                         }
                     }
+
                 }
                 if (!okflag)
                 {

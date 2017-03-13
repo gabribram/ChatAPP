@@ -1,5 +1,6 @@
 package com.gabri.gpschat.activity;
 
+import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,6 +21,7 @@ import com.gabri.gpschat.R;
 import com.gabri.gpschat.model.UserModel;
 import com.gabri.gpschat.utility.Constants;
 import com.gabri.gpschat.utility.GPSTracker;
+import com.gabri.gpschat.utility.Utils;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -30,14 +33,17 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.Calendar;
 
 public class SignupActivity extends AppCompatActivity {
-    EditText email_edittext,password_edittext,firstname_edittext,lastname_edittext;
-    TextView already_signuptextview;
+    EditText email_edittext,password_edittext,firstname_edittext;
+    TextView already_signuptextview,lastname_edittext;
+    DatePickerDialog dialog;
     Button singup_button;
     String emailstring,passwordstaring,firstnamestring,lastnamestring;
     FirebaseAuth mAuth;
     DatabaseReference userDatabase;
     SharedPreferences cookies_string;
     SharedPreferences.Editor editor;
+    private int year, month, day;
+    private Calendar calendar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,7 +55,7 @@ public class SignupActivity extends AppCompatActivity {
         email_edittext=(EditText)findViewById(R.id.signup_emaileditText);
         password_edittext=(EditText)findViewById(R.id.signup_passworkeditText);
         firstname_edittext=(EditText)findViewById(R.id.first_editText);
-        lastname_edittext=(EditText)findViewById(R.id.last_editText);
+        lastname_edittext=(TextView) findViewById(R.id.last_editText);
         already_signuptextview=(TextView)findViewById(R.id.alreadysignup_textView);
         singup_button=(Button)findViewById(R.id.signup_button);
         mAuth=FirebaseAuth.getInstance();
@@ -64,9 +70,42 @@ public class SignupActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(SignupActivity.this,LoginActivity.class);
                 startActivity(intent);
+                finish();
+            }
+        });
+        calendar = Calendar.getInstance();
+        year = calendar.get(Calendar.YEAR);
+
+        month = calendar.get(Calendar.MONTH);
+        day = calendar.get(Calendar.DAY_OF_MONTH);
+        showDate(year, month+1, day);
+
+        DatePickerDialog.OnDateSetListener myDateListener = new
+                DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker arg0,
+                                          int arg1, int arg2, int arg3) {
+                        // TODO Auto-generated method stub
+                        // arg1 = year
+                        // arg2 = month
+                        // arg3 = day
+                        showDate(arg1, arg2+1, arg3);
+                    }
+        };
+        dialog=new DatePickerDialog(this,
+                myDateListener, year, month, day);
+        lastname_edittext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            dialog.show();
             }
         });
         gpsTracker = new GPSTracker(this);
+    }
+
+    private void showDate(int year, int month, int day) {
+        lastname_edittext.setText(new StringBuilder().append(day).append("/")
+                .append(month).append("/").append(year));
     }
 
     GPSTracker gpsTracker;
@@ -90,6 +129,7 @@ public class SignupActivity extends AppCompatActivity {
                             Toast.makeText(SignupActivity.this, "Authentication failed." + task.getException(),
                                     Toast.LENGTH_SHORT).show();
                         } else {
+                            editor.putString(Constants.FACEBOOK,"false");
                             FirebaseUser user = task.getResult().getUser();
                             String uid = user.getUid();
                             Log.d("key",uid);
@@ -97,7 +137,7 @@ public class SignupActivity extends AppCompatActivity {
                             userModel.setObjectId(uid);
                             userModel.setEmail(emailstring);
                             userModel.setFirstName(firstnamestring);
-                            userModel.setLastName(lastnamestring);
+                            userModel.setBirthday(lastnamestring);
                             userModel.setLatitude(gpsTracker.getLatitude() + "");
                             userModel.setLongitude(gpsTracker.getLongitude() + "");
                             String date = Calendar.getInstance().getTime().getTime() + "";

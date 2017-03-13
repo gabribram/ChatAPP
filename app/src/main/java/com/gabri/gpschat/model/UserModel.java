@@ -21,6 +21,7 @@ public class UserModel {
     private String address;
     private String email;
     private String net_status;
+    private String facebook_flag;
 
     public UserModel() {
         this.objectId = "";
@@ -36,9 +37,10 @@ public class UserModel {
         this.address = "";
         this.email = "";
         this.net_status="";
+        this.facebook_flag="0";
     }
 
-    public UserModel(String objectId, String createAt, String firstName, String lastName, String updateAt, String token, String photoURL, String birthday, String longitude, String latitude, String address, String email, String net_status) {
+    public UserModel(String facebook_flag,String objectId, String createAt, String firstName, String lastName, String updateAt, String token, String photoURL, String birthday, String longitude, String latitude, String address, String email, String net_status) {
         this.objectId = objectId;
         this.createAt = createAt;
         this.firstName = firstName;
@@ -52,6 +54,15 @@ public class UserModel {
         this.address = address;
         this.email = email;
         this.net_status = net_status;
+        this.facebook_flag=facebook_flag;
+    }
+
+    public String getFacebook_flag() {
+        return facebook_flag;
+    }
+
+    public void setFacebook_flag(String facebook_flag) {
+        this.facebook_flag = facebook_flag;
     }
 
     public String getNet_status() {
@@ -174,6 +185,7 @@ public class UserModel {
         map.put("photoURL", this.photoURL);
         map.put("token", this.token);
         map.put("net_status",this.net_status);
+        map.put("facebook_flag",this.facebook_flag);
         return map;
     }
 

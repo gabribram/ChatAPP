@@ -152,7 +152,14 @@ public class ChatMainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 UserModel other = dataSnapshot.getValue(UserModel.class);
-                otherUserName = other.getFirstName() + " " + other.getLastName();
+                if (other.getFacebook_flag().equals("1")){
+                    String[] othername_tmpstring=other.getFirstName().split(" ");
+                    otherUserName=othername_tmpstring[0];
+                }
+                else {
+                    otherUserName = other.getFirstName();
+                }
+
                 other_username_textview.setText(otherUserName);
                 otherUserPhoto = other.getPhotoURL();
                 FirebaseDatabase.getInstance().getReference(Constants.MESSAGE_TABLE).child(model.getGroupId()).addListenerForSingleValueEvent(new ValueEventListener() {

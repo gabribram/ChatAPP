@@ -38,11 +38,14 @@ public class StartActivity extends AppCompatActivity {
         if (auth.getCurrentUser() != null) {
             Intent intent=new Intent(StartActivity.this,MainActivity.class);
             startActivity(intent);
+            finish();
         }
         else {
 
             Intent intent=new Intent(StartActivity.this,LoginActivity.class);
             startActivity(intent);
+            finish();
+
 
         }
 

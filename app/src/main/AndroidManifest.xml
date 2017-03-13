@@ -53,7 +53,7 @@
             android:label="@string/app_name" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBxZkjP3mbqsRo-QSW6JrIO-cZeJmbDVgc" />
+            android:value="AIzaSyBrru_ruojhTsFnnvlSoTy08zos_9mh6GA" />
         <meta-data android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id"/>
         <service android:name=".utility.GPSTracker"

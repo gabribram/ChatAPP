@@ -1,6 +1,7 @@
 package com.gabri.gpschat.fragment;
 
 
+import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
@@ -21,8 +22,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.facebook.AccessToken;
@@ -78,7 +81,8 @@ public class SettingFragment extends Fragment {
     DatabaseReference userDatabase;
     View setting_view;
     Button logout_button,update_button;
-    EditText firstname_edittext,lastname_edit;
+    EditText firstname_edittext;
+    TextView lastname_edit;
     private AvatarView profileImageview;
     private IImageLoader imageLoader;
     static final int REQUEST_IMAGE_CAPTURE = 1;
@@ -89,6 +93,9 @@ public class SettingFragment extends Fragment {
     Bitmap userBitmap;
     ACProgressFlower dialog;
     MainActivity mainActivity;
+    private int year, month, day;
+    private Calendar calendar;
+    DatePickerDialog birthday_dialog;
     public SettingFragment() {
         // Required empty public constructor
     }
@@ -107,7 +114,7 @@ public class SettingFragment extends Fragment {
         logout_button=(Button)setting_view.findViewById(R.id.signout_button);
         update_button=(Button)setting_view.findViewById(R.id.update_button);
         firstname_edittext=(EditText)setting_view.findViewById(R.id.firstname_editText);
-        lastname_edit=(EditText)setting_view.findViewById(R.id.lastname_editText);
+        lastname_edit=(TextView) setting_view.findViewById(R.id.lastname_editText);
         profileImageview=(AvatarView)setting_view.findViewById(R.id.avatar_image);
         dialog = new ACProgressFlower.Builder(getActivity())
                 .direction(ACProgressConstant.DIRECT_CLOCKWISE)
@@ -142,7 +149,31 @@ public class SettingFragment extends Fragment {
             updating_profile();
             }
         });
+        DatePickerDialog.OnDateSetListener myDateListener = new
+                DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker arg0,
+                                          int arg1, int arg2, int arg3) {
+                        // TODO Auto-generated method stub
+                        // arg1 = year
+                        // arg2 = month
+                        // arg3 = day
+                        showDate(arg1, arg2+1, arg3);
+                    }
+                };
+         birthday_dialog=new DatePickerDialog(getActivity(),
+                 myDateListener, year, month, day);
+        lastname_edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                birthday_dialog.show();
+            }
+        });
         return setting_view;
+    }
+    private void showDate(int year, int month, int day) {
+        lastname_edit.setText(new StringBuilder().append(day).append("/")
+                .append(month).append("/").append(year));
     }
     public void signout(){
 
@@ -153,13 +184,18 @@ public class SettingFragment extends Fragment {
             {
                 LoginManager.getInstance().logOut();
             }
-        if (Utils.getFromPref(Constants.FACEBOOK, getActivity()).equals("true"))   Utils.setToPrefString(Constants.FACEBOOK, "false", getActivity());
+
         UserModel userModel = new UserModel();
-        userModel.setObjectId(cookies_string.getString(Constants.USER_ID,null));
-        userModel.setEmail(cookies_string.getString(Constants.KEY_USERMAIL,null));
+        if (Utils.getFromPref(Constants.FACEBOOK, getActivity()).equals("true"))
+        {
+            Utils.setToPrefString(Constants.FACEBOOK, "false", getActivity());
+            userModel.setFacebook_flag("1");
+        }
+        userModel.setObjectId(cookies_string.getString(Constants.USER_ID,""));
+        userModel.setEmail(cookies_string.getString(Constants.KEY_USERMAIL,""));
         userModel.setFirstName(firstname_edittext.getText().toString().trim());
-        userModel.setLastName(lastname_edit.getText().toString().trim());
-        userModel.setPhotoURL(cookies_string.getString(Constants.KEY_PHOTOURL,null));
+        userModel.setBirthday(lastname_edit.getText().toString().trim());
+        userModel.setPhotoURL(cookies_string.getString(Constants.KEY_PHOTOURL,""));
         String date = Calendar.getInstance().getTime().getTime() + "";
         userModel.setNet_status("0");
         userModel.setCreateAt(date);
@@ -196,6 +232,11 @@ public class SettingFragment extends Fragment {
                     Uri downloadUrl = taskSnapshot.getDownloadUrl();
                     UserModel userModel = new UserModel();
                     userModel.setObjectId(uid);
+                    if (Utils.getFromPref(Constants.FACEBOOK, getActivity()).equals("true"))
+                    {
+
+                        userModel.setFacebook_flag("1");
+                    }
                     userModel.setEmail(cookies_string.getString(Constants.KEY_USERMAIL,null));
                     userModel.setFirstName(firstname_edittext.getText().toString().trim());
                     userModel.setLastName(lastname_edit.getText().toString().trim());
@@ -237,7 +278,14 @@ public class SettingFragment extends Fragment {
     }
     public void loadprofile(){
     firstname_edittext.setText(cookies_string.getString(Constants.KEY_FIRSTNAME,null));
-    lastname_edit.setText(cookies_string.getString(Constants.KEY_LASTNAME,null));
+    if (cookies_string.getString(Constants.KEY_LASTNAME,null).equals(""))
+    {
+        lastname_edit.setText("Please set Birthday");
+    }
+    else {
+        lastname_edit.setText(cookies_string.getString(Constants.KEY_LASTNAME,null));
+    }
+
 
     }
     private void dispatchTakePictureIntent() {

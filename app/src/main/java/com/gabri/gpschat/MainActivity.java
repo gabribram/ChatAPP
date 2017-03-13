@@ -4,10 +4,12 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.AsyncTask;
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageButton;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
@@ -34,6 +36,7 @@ import me.leolin.shortcutbadger.ShortcutBadger;
 
 public class MainActivity extends AppCompatActivity {
     AvailableFragment availeFragment;
+    ImageButton exit_iamgebutton;
     AHBottomNavigation bottomNavigation;
     LocationTracker tracker;
     DatabaseReference userDatabase;
@@ -51,6 +54,15 @@ public class MainActivity extends AppCompatActivity {
 //        ShortcutBadger.with(getApplicationContext()).count(badgeCount); //for 1.1.3
 //        Intent intent=new Intent(MainActivity.this, MapsActivity.class);
 //        startActivity(intent);
+        exit_iamgebutton=(ImageButton)findViewById(R.id.exit_imageButton);
+        exit_iamgebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+
+            }
+        });
+
         bottomNavigation = (AHBottomNavigation) findViewById(R.id.bottom_navigation);
 
 // Create items
@@ -288,12 +300,23 @@ public class MainActivity extends AppCompatActivity {
         userModel.setPhotoURL(Utils.getFromPref(Constants.KEY_PHOTOURL,this));
         userModel.setLongitude(Double.toString(location.getLongitude()));
         userModel.setLatitude(Double.toString(location.getLatitude()));
+        userModel.setNet_status("1");
+        if (Utils.getFromPref(Constants.FACEBOOK, MainActivity.this).equals("true"))
+        {
+
+            userModel.setFacebook_flag("1");
+        }
         String date = Calendar.getInstance().getTime().getTime() + "";
         userModel.setCreateAt(date);
         userModel.setUpdateAt(date);
         userDatabase.child(Utils.getFromPref(Constants.USER_ID,this)).setValue(userModel.getHashMap());
 
 
+
+    }
+
+    @Override
+    public void onBackPressed() {
 
     }
 }

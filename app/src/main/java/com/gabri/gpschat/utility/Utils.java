@@ -16,13 +16,16 @@ public class Utils {
     public static String getFromPref(String key, Context context)
     {
         SharedPreferences pref = context.getSharedPreferences(Constants.KEY_COOKIES, Context.MODE_PRIVATE);
-        return pref.getString(key, "");
+        String result = pref.getString(key, "");
+        if (result == null) return "";
+        return result;
     }
 
     public static void setToPrefString(String key, String value, Context context)
     {
         SharedPreferences pref = context.getSharedPreferences(Constants.KEY_COOKIES, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = pref.edit();
+        if (value == null) value = "";
         editor.putString(key, value);
         editor.commit();
     }

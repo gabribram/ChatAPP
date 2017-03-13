@@ -1,7 +1,9 @@
 package com.gabri.gpschat.fragment;
 
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
@@ -52,6 +54,8 @@ public class AvailableFragment extends Fragment {
     String currentUserId,fragment_string,notification_string;
     GPSTracker gpsTracker;
     Location mycurrent_location;
+    SharedPreferences cookies_string;
+    SharedPreferences.Editor editor;
     public AvailableFragment() {
         // Required empty public constructor
     }
@@ -62,19 +66,10 @@ public class AvailableFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         avaiable_view=inflater.inflate(R.layout.fragment_available, container, false);
-//        alert_textview=(TextView)avaiable_view.findViewById(R.id.alert_textView);
+        cookies_string = getActivity().getSharedPreferences(Constants.KEY_COOKIES, Context.MODE_PRIVATE);
+        editor = cookies_string.edit();
         fragment_string=Utils.getFromPref(Constants.KEY_FRAGMENTFLAG,getActivity());
         notification_string=Utils.getFromPref(Constants.KEY_SEND_COUND,getActivity());
-//        if (fragment_string.equals("message")){
-//           alert_textview.setText("You have unread "+notification_string+" messages!");
-//        }
-//        else if (fragment_string.equals("contact")){
-//            alert_textview.setText("You have available contacts "+notification_string+" for chat!");
-//        }
-
-
-
-
         dialog = new ACProgressFlower.Builder(getActivity())
                 .direction(ACProgressConstant.DIRECT_CLOCKWISE)
                 .themeColor(Color.WHITE)
@@ -108,11 +103,19 @@ public class AvailableFragment extends Fragment {
                     float distance=mycurrent_location.distanceTo(other_locations);
                     Log.d("distance",Float.toString(distance));
                     if (distance<=300){
-                        userlist.add(model);
+                        if (model.getObjectId().equals(cookies_string.getString(Constants.USER_ID,null)))
+                        {
+
+                        }
+                        else {
+                            userlist.add(model);
+                        }
+
                     }
 //                    userlist.add(model);
 
                 }
+
                 adapter = new AvailableUserAdapter(getActivity(), userlist);
                 availble_userlistview.setAdapter(adapter);
 

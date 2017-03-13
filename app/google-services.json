@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "723562916157",
-    "firebase_url": "https://window-941ff.firebaseio.com",
-    "project_id": "window-941ff",
-    "storage_bucket": "window-941ff.appspot.com"
+    "project_number": "456605963250",
+    "firebase_url": "https://windowtest-3b395.firebaseio.com",
+    "project_id": "windowtest-3b395",
+    "storage_bucket": "windowtest-3b395.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:723562916157:android:4451356f2f635bb2",
+        "mobilesdk_app_id": "1:456605963250:android:4451356f2f635bb2",
         "android_client_info": {
           "package_name": "com.gabri.gpschat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "723562916157-17kmt81vu1lqadb3vrvac78l8n609g7f.apps.googleusercontent.com",
+          "client_id": "456605963250-lh0tmurcfuuc2ojg4poguhpi9hbug434.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDIcs_eZVPrLGlKU6UMVnH00NtMS8y3qUg"
+          "current_key": "AIzaSyBrru_ruojhTsFnnvlSoTy08zos_9mh6GA"
         }
       ],
       "services": {

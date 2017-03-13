@@ -105,14 +105,7 @@ public class MessageModel {
 
     public HashMap<String, String> getHashMap()
     {
-//        this.objectId = "";
-//        this.groupId = "";
-//        this.senderId = "";
-//        this.senderUsername = "";
-//        this.createdAt = "";
-//        this.text = "";
-//        this.updatedAt = "";
-//        this.senderPhotoURL = "";
+
         HashMap<String, String> map = new HashMap<>();
         map.put("objectId", this.objectId);
         map.put("groupId", this.groupId);

@@ -27,22 +27,21 @@
         android:textColorHint="@color/white"
         android:hint="First Name" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:layout_above="@+id/signup_emaileditText"
+    <TextView
         android:id="@+id/last_editText"
-        android:layout_alignRight="@+id/signup_emaileditText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_above="@+id/signup_emaileditText"
         android:layout_alignEnd="@+id/signup_emaileditText"
         android:layout_alignLeft="@+id/signup_emaileditText"
+        android:layout_alignRight="@+id/signup_emaileditText"
         android:layout_alignStart="@+id/signup_emaileditText"
-        android:singleLine="true"
-        android:typeface="serif"
-        android:textColorHint="@color/white"
+        android:gravity="bottom"
+        android:hint="Birth day"
         android:textColor="@color/white"
-        android:hint="Last Name" />
+        android:textColorHint="@color/white"
+        android:textSize="19sp"
+        android:typeface="serif" />
 
     <EditText
         android:layout_width="match_parent"
@@ -101,7 +100,8 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:textColor="#FFFFFF"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:layout_alignParentRight="true" />
 
     <TextView
         android:text="WINDOW"
