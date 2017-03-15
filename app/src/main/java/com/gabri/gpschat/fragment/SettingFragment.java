@@ -239,7 +239,7 @@ public class SettingFragment extends Fragment {
                     }
                     userModel.setEmail(cookies_string.getString(Constants.KEY_USERMAIL,null));
                     userModel.setFirstName(firstname_edittext.getText().toString().trim());
-                    userModel.setLastName(lastname_edit.getText().toString().trim());
+                    userModel.setBirthday(lastname_edit.getText().toString().trim());
                     userModel.setPhotoURL(downloadUrl.toString());
                     String date = Calendar.getInstance().getTime().getTime() + "";
                     userModel.setCreateAt(date);
@@ -260,7 +260,7 @@ public class SettingFragment extends Fragment {
             userModel.setObjectId(uid);
             userModel.setEmail(cookies_string.getString(Constants.KEY_USERMAIL,null));
             userModel.setFirstName(firstname_edittext.getText().toString().trim());
-            userModel.setLastName(lastname_edit.getText().toString().trim());
+            userModel.setBirthday(lastname_edit.getText().toString().trim());
             userModel.setPhotoURL(cookies_string.getString(Constants.KEY_PHOTOURL,null));
             String date = Calendar.getInstance().getTime().getTime() + "";
             userModel.setCreateAt(date);

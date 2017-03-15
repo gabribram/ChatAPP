@@ -156,6 +156,7 @@ public class LoginActivity extends AppCompatActivity {
         .addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
+                Log.d("facebook", e.getLocalizedMessage());
                 Toast.makeText(getApplicationContext(), e.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
             }
         });
@@ -249,7 +250,7 @@ public class LoginActivity extends AppCompatActivity {
                     } else {
                         Utils.setToPrefString(Constants.FACEBOOK, "false", LoginActivity.this);
                         editor.putString(Constants.KEY_FIRSTNAME,model.getFirstName());
-                        editor.putString(Constants.KEY_LASTNAME,model.getLastName());
+                        editor.putString(Constants.KEY_LASTNAME,model.getBirthday());
                         editor.putString(Constants.KEY_USERMAIL,model.getEmail());
                         editor.putString(Constants.KEY_PHOTOURL,model.getPhotoURL());
                         editor.putString(Constants.USER_ID, model.getObjectId());
@@ -259,7 +260,7 @@ public class LoginActivity extends AppCompatActivity {
                         userModel.setObjectId(uid);
                         userModel.setEmail(model.getEmail());
                         userModel.setFirstName(model.getFirstName());
-                        userModel.setLastName(model.getLastName());
+                        userModel.setBirthday(model.getBirthday());
                         userModel.setPhotoURL(model.getPhotoURL());
                         String date = Calendar.getInstance().getTime().getTime() + "";
                         userModel.setCreateAt(date);

@@ -296,7 +296,7 @@ public class MainActivity extends AppCompatActivity {
         userModel.setObjectId(Utils.getFromPref(Constants.USER_ID,this));
         userModel.setEmail(Utils.getFromPref(Constants.KEY_USERMAIL,this));
         userModel.setFirstName(Utils.getFromPref(Constants.KEY_FIRSTNAME,this));
-        userModel.setLastName(Utils.getFromPref(Constants.KEY_LASTNAME,this));
+        userModel.setBirthday(Utils.getFromPref(Constants.KEY_LASTNAME,this));
         userModel.setPhotoURL(Utils.getFromPref(Constants.KEY_PHOTOURL,this));
         userModel.setLongitude(Double.toString(location.getLongitude()));
         userModel.setLatitude(Double.toString(location.getLatitude()));
