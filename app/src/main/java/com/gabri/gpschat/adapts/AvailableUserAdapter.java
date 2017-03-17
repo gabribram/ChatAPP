@@ -90,7 +90,7 @@ public class AvailableUserAdapter extends BaseAdapter {
             viewHolder.firstname_textview.setText(userslist.get(position).getFirstName());
         }
         calendar = Calendar.getInstance();
-        year = calendar.get(Calendar.YEAR);
+        year = calendar.get(Calendar.YEAR)-1;
         if (userslist.get(position).getBirthday().equals("")){
             viewHolder.lastname_textview.setText("age: "+"unknow");
         }

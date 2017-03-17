@@ -207,8 +207,8 @@ public class MainActivity extends AppCompatActivity {
                                 .setUseNetwork(true)
                                 .setUsePassive(true)
                                 .setTimeout(3 * 60 * 1000)
-                                .setMetersBetweenUpdates(10)
-                                .setTimeBetweenUpdates(5 * 1000)
+                                .setMetersBetweenUpdates(2)
+                                .setTimeBetweenUpdates(2 * 1000)
 
                 ) {
 
